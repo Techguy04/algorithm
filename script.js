@@ -1,14 +1,14 @@
 /** @format */
 //01 palidrone
 const name = "ada";
-const palidrone = "";
+var palidrone = "";
 for (i = name.length - 1; i >= 0; i--) {
+	// console.log(name[i].toLowerCase());
 	palidrone += name[i].toLowerCase();
-	console.log(palidrone);
 }
 if (name.toLowerCase() == palidrone) {
-	console.log("true");
+	console.log(true);
 } else {
-	console.log("false");
+	console.log(false);
 }
 //02
